@@ -1,0 +1,32 @@
+<div class="area-pedido">
+    <form class="formulario">
+        <app-input
+        label = "Produto"
+        placeholder = "Escolha um produto"
+        [(ngModel)] = "formData.produto"
+        name = "produto"
+        type = "text"
+        [required] = true>
+        </app-input>
+    
+        <app-input
+        label = "Quantidade"
+        placeholder = ""
+        [(ngModel)] = "formData.quantidade"
+        name = "quantidade"
+        type = "number"
+        [required] = true>
+        </app-input>
+    
+        <app-input
+        label = "Observação"
+        placeholder = ""
+        [(ngModel)] = "formData.observacao"
+        name = "password"
+        type = "text"
+        [required] = false>
+        </app-input>
+    </form>
+
+    <app-botao>Finalizar</app-botao>
+</div>

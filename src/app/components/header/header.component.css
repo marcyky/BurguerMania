@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ed0000;
+}
+
+h3{
+    text-align: start;
+}
+
+p{
+    text-align: end;
+}

@@ -2,12 +2,15 @@ header{
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid #ed0000;
+    background-color: #fbebeb;
 }
 
-h3{
-    text-align: start;
+.menu a {
+    color: #521d16;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-p{
-    text-align: end;
+.menu a:hover {
+    color: #ed0000;
 }

@@ -9,3 +9,18 @@ h1{
     text-align: center;
     margin-top: 30px;
 }
+
+.card-original {
+    padding: 3px;
+    text-align: center;
+    background-color: #f8ecec;
+}
+
+.saibamais a {
+    color: #521d16;
+    text-decoration: none;
+}
+
+.saibamais a:hover {
+    color: #ed0000;
+}

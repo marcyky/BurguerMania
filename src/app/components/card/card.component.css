@@ -4,7 +4,6 @@
     flex-direction: column;
     width: 320px;
     border: 1px solid #ed0000;
-    border-radius: 0 0 15px 15px;
     margin-top: 10px;
     position: relative;
 }
@@ -13,6 +12,6 @@
     margin-top: -30;
     padding: 0px 20px 10px 30px;
     background-color: #f8ecec;
-    border-radius: 10px 10px 15px 15px;
+    border-radius: 10px 10px 0 0;
     border-top: 1px solid #ed0000;
 }

@@ -1,2 +1,12 @@
 <h1>Cardápio</h1>
-<h3>Hamburguer</h3>
+<h2>{{item?.titulo}}</h2>
+
+<section id="itens" *ngIf="item">
+    <app-card [itemData]="item">
+        <h3>R${{item.preco}}</h3>
+    </app-card>
+    
+    <p>{{item.descricao}}</p>
+
+    <app-botao (click)="navegarParaPedido()">Adicionar ao carrinho</app-botao>
+</section>

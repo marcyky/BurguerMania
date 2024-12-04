@@ -3,6 +3,7 @@
     <section class="card-texto">
         <h2>{{itemData.titulo}}</h2>
         <p>{{itemData.descricao}}</p>
-        <p><a [routerLink]="['/produto']">saiba mais</a></p>
+        <ng-content></ng-content>
     </section>
+    <ng-content select=".card-original"></ng-content>
 </section>

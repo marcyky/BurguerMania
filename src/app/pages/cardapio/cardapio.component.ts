@@ -1,44 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, inject, Input } from '@angular/core';
 import { CardComponent } from "../../components/card/card.component";
 import { ItemInterface } from '../../interfaces/item-interface';
 import { CommonModule } from '@angular/common';
+import { ItemService } from '../../services/item.service';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-cardapio',
   standalone: true,
-  imports: [CardComponent, CommonModule],
+  imports: [CardComponent, CommonModule, RouterModule],
   templateUrl: './cardapio.component.html',
   styleUrl: './cardapio.component.css'
 })
 export class CardapioComponent {
-  itensList: ItemInterface[] = [
-    {
-      "id": 1,
-      "titulo": "Cheddar e bacon",
-      "descricao": "pão de batata, duas carnes, queijo cheddar cremoso e bacon crocante.",
-      "image": "lanche1.jpg",
-      "preco": 20
-    },
-    {
-      "id": 2,
-      "titulo": "x-salada",
-      "descricao": "pão com gergelim, carne, queijo e salada.",
-      "image": "lanche2.jpg",
-      "preco": 20
-    },
-    {
-      "id": 3,
-      "titulo": "Frango",
-      "descricao": "pão de batata, frango empanado, picles e molho especial.",
-      "image": "lanche3.jpg",
-      "preco": 25
-    },
-    {
-      "id": 4,
-      "titulo": "Combo",
-      "descricao": "x-salada, coca-cola e batata frita.",
-      "image": "combo.jpg",
-      "preco": 40
-    }
-  ]
+  @Input() itemData!: ItemInterface;
+  itensList: ItemInterface[] = [];
+  itemService: ItemService = inject(ItemService);
+
+  constructor() {
+    this.itensList = this.itemService.getAllItens();
+  }
 }

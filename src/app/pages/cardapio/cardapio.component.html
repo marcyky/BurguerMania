@@ -1,4 +1,8 @@
 <h1>Cardápio</h1>
 <section id="itens">
-    <app-card *ngFor="let item of itensList" [itemData]="item"></app-card>
+    <app-card *ngFor="let item of itensList" [itemData]="item">
+        <div class="card-original">
+            <p class="saibamais"><a [routerLink]="['/produto', item.id]">saiba mais</a></p>
+        </div>
+    </app-card>
 </section>

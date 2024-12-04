@@ -3,4 +3,5 @@ export interface ItemInterface {
     titulo: string;
     descricao: string;
     image: string;
+    preco: number;
 }

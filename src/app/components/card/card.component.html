@@ -1,7 +1,8 @@
 <section class="card-item">
-    <img [src]="itemData.image" width="300px" />
+    <img [src]="itemData.image" width="300px"  />
     <section class="card-texto">
         <h2>{{itemData.titulo}}</h2>
         <p>{{itemData.descricao}}</p>
+        <p><a [routerLink]="['/produto']">saiba mais</a></p>
     </section>
 </section>

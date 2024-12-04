@@ -16,25 +16,29 @@ export class CardapioComponent {
       "id": 1,
       "titulo": "Cheddar e bacon",
       "descricao": "pão de batata, duas carnes, queijo cheddar cremoso e bacon crocante.",
-      "image": "lanche1.jpg"
+      "image": "lanche1.jpg",
+      "preco": 20
     },
     {
       "id": 2,
       "titulo": "x-salada",
       "descricao": "pão com gergelim, carne, queijo e salada.",
-      "image": "lanche2.jpg"
+      "image": "lanche2.jpg",
+      "preco": 20
     },
     {
       "id": 3,
       "titulo": "Frango",
       "descricao": "pão de batata, frango empanado, picles e molho especial.",
-      "image": "lanche3.jpg"
+      "image": "lanche3.jpg",
+      "preco": 25
     },
     {
       "id": 4,
       "titulo": "Combo",
       "descricao": "x-salada, coca-cola e batata frita.",
-      "image": "combo1.jpg"
+      "image": "combo.jpg",
+      "preco": 40
     }
   ]
 }

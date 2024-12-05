@@ -1,13 +1,9 @@
-# ProjetoUnd9
+# Projeto Hamburgueria
 
 ![image3](https://github.com/user-attachments/assets/59b158e0-57ee-44c6-b293-0627deea4f79)
 
-Projeto de front-end básico criado para uma hamburgueria, utilizando angular. Ao abrir a página, inicialmente você é levado para a página de home, com a logo e o header que será utilizado para navegação. Ao clicar em qualquer um dos botões no header, você será redirecionado para a respectiva página escolhida. O botão de início leva a página de home, o de cardápio leva ao cardápio com os diferentes tipos de produtos e por ultimo o de pedido leva ao formulario para poder escolher o produto e a quantidade desejados.
-
-Algumas melhorias para o futuro: 
-- Como o projeto é apenas de front-end, ainda não temos o back-end integrado, por isso o botão de finaizar pedido não leva a lugar nenhum
-- Adicionar responsividade aos cards dos produtos, na página de cardápio, para redirecionar a página de detalhes
-- Adicionar mais detalhes sobre a hamburgueria
+Projeto fullstack criado para uma hamburgueria, utilizando angular e .Net. O principal objetivo da aplicação web é de servir como cardápio e pedido de produtos online. Ao abrir a página, inicialmente você é levado para a página de home, com a logo do restaurante e o header que será utilizado para navegação. Ao clicar em qualquer um dos botões no header, você será redirecionado para a respectiva página escolhida. O botão de início leva a página de home, o de cardápio leva ao cardápio com os diferentes tipos de produtos, o de pedido leva ao formulario para poder escolher o produto e a quantidade desejados e por último o de perfil.
+Voltando a página de cardápio, 
 
 ## Development server
 

@@ -3,7 +3,7 @@
 ![image3](https://github.com/user-attachments/assets/59b158e0-57ee-44c6-b293-0627deea4f79)
 
 Projeto fullstack criado para uma hamburgueria, utilizando angular e .Net. O principal objetivo da aplicação web é de servir como cardápio e pedido de produtos online. Ao abrir a página, inicialmente você é levado para a página de home, com a logo do restaurante e o header que será utilizado para navegação. Ao clicar em qualquer um dos botões no header, você será redirecionado para a respectiva página escolhida. O botão de início leva a página de home, o de cardápio leva ao cardápio com os diferentes tipos de produtos, o de pedido leva ao formulario para poder escolher o produto e a quantidade desejados e por último o de perfil.
-Voltando a página de cardápio, 
+Voltando a página de cardápio, temos todos os produtos disponíveis na loja exibidos em cards contendo seus nomes e uma breve listagens dos ingredientes que cada um leva, na parte de baixo do card temos a opção de "saiba mais", que redireciona para outra página contendo mais detalhes sobre o produto, como seu preço e a opção de adicionalo ao carrinho. Temos também a tela dos pedidos, que contem um formulário para ser preenchido com os itens desejados, a quantidade e uma opção para deixar alguma observação sobre o pedido.
 
 ## Development server
 
